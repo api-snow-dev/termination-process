@@ -13,7 +13,7 @@
 
 This will return information to the user about their OneDrive Delegation.</description>
         <internal_name>onedrive_delegation_return_data</internal_name>
-        <label_cache>[{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state","label":"1➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.description","label":"1➛Requested Item Record➛Request➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number","label":"1➛Requested Item Record➛Request➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"number"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name","label":"1➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.sys_id","label":"1➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.email","label":"2➛Person_Leaving➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.name","label":"2➛Person_Leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"33858f06-df77-4714-96b6-377437075d84.context","label":"5➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.table_name","label":"3➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.record","label":"3➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record","label":"1➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Table","label":"1➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"subflow.flowdata.ritm","label":"Input➛flowData➛ritm","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"a94ea3f6-b1a0-4dda-a1fe-64b74ad7321e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving","label":"2➛Person_Leaving","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.first_name","label":"1➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Records","label":"4➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Table","label":"4➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.sys_id","label":"1➛Requested Item Record➛Requested for➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description","label":"1➛Requested Item Record➛Request➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"short_description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__dont_treat_as_error__","label":"5➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__action_status__","label":"5➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description","label":"2➛Requested Item Record➛Request➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"short_description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.sys_id","label":"2➛Requested Item Record➛Requested for➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Table","label":"5➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Records","label":"5➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.first_name","label":"2➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving","label":"3➛Person_Leaving","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"subflow.flowdata.ritm","label":"Input➛flowData➛ritm","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"a94ea3f6-b1a0-4dda-a1fe-64b74ad7321e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Table","label":"2➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record","label":"2➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.record","label":"4➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.table_name","label":"4➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"33858f06-df77-4714-96b6-377437075d84.context","label":"6➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.name","label":"3➛Person_Leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.email","label":"3➛Person_Leaving➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.sys_id","label":"2➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name","label":"2➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number","label":"2➛Requested Item Record➛Request➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"number"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.description","label":"2➛Requested Item Record➛Request➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state","label":"2➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state"},{"name":"subflow.flowdata.status","label":"Input➛flowData➛status","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"4728a3bd-d3f7-4851-906d-78b7c2f09fbd","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>b1608fd41b3334108c5143f3cc4bcbd3</master_snapshot>
         <name>Azure - OneDrive Delegation Return Data</name>
         <natlang/>
@@ -31,7 +31,7 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5cddfe901b3334108c5143f3cc4bcb6f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Azure - OneDrive Delegation Return Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="Termination Process" source="x_apig_termination">096401ab1b9bf41062e50ed2cd4bcbd9</sys_package>
@@ -39,7 +39,7 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_update_name>sys_hub_flow_5cddfe901b3334108c5143f3cc4bcb6f</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:38</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5cddfe901b3334108c5143f3cc4bcb6f"/>
@@ -148,16 +148,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</flow>
-        <order>4</order>
-        <parent_ui_id/>
+        <order>5</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:43:02</sys_created_on>
         <sys_id>5229eb641bb7b41062e50ed2cd4bcbd5</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:37</sys_updated_on>
         <ui_id>86d58b17-c04b-480b-9f1a-e487049abbee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5229eb641bb7b41062e50ed2cd4bcbd5"/>
@@ -209,16 +209,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</flow>
-        <order>1</order>
-        <parent_ui_id/>
+        <order>2</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-09 18:06:28</sys_created_on>
         <sys_id>65608fd41b3334108c5143f3cc4bcbb0</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:37</sys_updated_on>
         <ui_id>4a06ebd6-c1a3-4d80-9eae-4e65901427f0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65608fd41b3334108c5143f3cc4bcbb0"/>
@@ -270,16 +270,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</flow>
-        <order>3</order>
-        <parent_ui_id/>
+        <order>4</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:35:20</sys_created_on>
         <sys_id>a567afa01bb7b41062e50ed2cd4bcbbc</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:37</sys_updated_on>
         <ui_id>c8463d46-1552-4b69-9320-3a662b119fae</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a567afa01bb7b41062e50ed2cd4bcbbc"/>
@@ -357,16 +357,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</flow>
-        <order>2</order>
-        <parent_ui_id/>
+        <order>3</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:35:20</sys_created_on>
         <sys_id>e967afa01bb7b41062e50ed2cd4bcba8</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:37</sys_updated_on>
         <ui_id>959d0aeb-89b7-49dc-ae6f-cc435125216a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e967afa01bb7b41062e50ed2cd4bcba8"/>
@@ -442,18 +442,18 @@ This will return information to the user about their OneDrive Delegation.</descr
         <flow display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</flow>
         <inputs/>
         <inputs/>
-        <order>5</order>
-        <parent_ui_id/>
+        <order>6</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <subflow display_value="Send Modular Notification">e420ef711b13fc5062e50ed2cd4bcb8a</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:35:21</sys_created_on>
         <sys_id>ad67afa01bb7b41062e50ed2cd4bcbbe</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:38</sys_updated_on>
         <ui_id>33858f06-df77-4714-96b6-377437075d84</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ad67afa01bb7b41062e50ed2cd4bcbbe"/>
@@ -618,11 +618,11 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:35:21</sys_created_on>
         <sys_id>3967efa01bb7b41062e50ed2cd4bcb2c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:09</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:31</sys_updated_on>
         <table>var__m_sys_hub_flow_input_e420ef711b13fc5062e50ed2cd4bcb8a</table>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c":{"$COCollectionField":[{"variable":{"variableName":"String","variableName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"variableName\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"variableValue":"String","variableValue.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name}}\\\",\\\"[1].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number}}\\\",\\\"[2].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description}}\\\",\\\"[3].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state}}\\\"}\",\"default_value\":\"\",\"label\":\"variableValue\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"}},"complexObject":{"name$":"FD2c20ef713b13fc5032f6ccecbe00e18c","$COCollectionField":[{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Submitted by"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Number"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Description"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Status"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"serializationFormat":"JSON"}</value>
+        <value>{"version":"1.0","complexObject":{"name$":"FD2c20ef713b13fc5032f6ccecbe00e18c","$COCollectionField":[{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Submitted by"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Number"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Description"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Status"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c":{"$COCollectionField":[{"variable":{"variableName":"String","variableName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"variableName\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"variableValue":"String","variableValue.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name}}\\\",\\\"[1].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number}}\\\",\\\"[2].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description}}\\\",\\\"[3].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state}}\\\"}\",\"default_value\":\"\",\"label\":\"variableValue\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"}}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>wait_for_completion</field>
@@ -746,6 +746,51 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2021-11-10 15:37:27</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5cddfe901b3334108c5143f3cc4bcb6f^sys_idNOT INfae4f5331ba885d08c5143f3cc4bcbee"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32e4f5331ba885d08c5143f3cc4bcbee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-12-27 16:22:31</sys_created_on>
+        <sys_id>fae4f5331ba885d08c5143f3cc4bcbee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-12-27 16:22:37</sys_updated_on>
+        <ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fae4f5331ba885d08c5143f3cc4bcbee"/>
+    <sys_element_mapping action="delete_multiple" query="id=fae4f5331ba885d08c5143f3cc4bcbee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fae4f5331ba885d08c5143f3cc4bcbee</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-12-27 16:22:31</sys_created_on>
+        <sys_id>b2e4f5331ba885d08c5143f3cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-12-27 16:22:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.flowdata.status}}=success</value>
+    </sys_element_mapping>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=5cddfe901b3334108c5143f3cc4bcb6f^sys_idNOT INb967efa01bb7b41062e50ed2cd4bcb30"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>5cddfe901b3334108c5143f3cc4bcb6f</attached_to>
@@ -790,7 +835,7 @@ This will return information to the user about their OneDrive Delegation.</descr
     </sys_documentation>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5cddfe901b3334108c5143f3cc4bcb6f^sys_idNOT IN4260cfd41b3334108c5143f3cc4bcb34"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@12d456a</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@1171cf9</plan>
         <plan_id display_value="Azure - OneDrive Delegation Return Data">5cddfe901b3334108c5143f3cc4bcb6f</plan_id>
         <snapshot>b1608fd41b3334108c5143f3cc4bcbd3</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -798,11 +843,11 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4260cfd41b3334108c5143f3cc4bcb34</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:16</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:37</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -817,7 +862,7 @@ This will return information to the user about their OneDrive Delegation.</descr
 
 This will return information to the user about their OneDrive Delegation.</description>
         <internal_name>onedrive_delegation_return_data</internal_name>
-        <label_cache>[{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state","label":"1➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.description","label":"1➛Requested Item Record➛Request➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number","label":"1➛Requested Item Record➛Request➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"number"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name","label":"1➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.sys_id","label":"1➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.email","label":"2➛Person_Leaving➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.name","label":"2➛Person_Leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"33858f06-df77-4714-96b6-377437075d84.context","label":"5➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.table_name","label":"3➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.record","label":"3➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record","label":"1➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Table","label":"1➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"subflow.flowdata.ritm","label":"Input➛flowData➛ritm","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"a94ea3f6-b1a0-4dda-a1fe-64b74ad7321e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving","label":"2➛Person_Leaving","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.first_name","label":"1➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Records","label":"4➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Table","label":"4➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.sys_id","label":"1➛Requested Item Record➛Requested for➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description","label":"1➛Requested Item Record➛Request➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"short_description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__dont_treat_as_error__","label":"5➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.__action_status__","label":"5➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__dont_treat_as_error__","label":"4➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.__action_status__","label":"4➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description","label":"2➛Requested Item Record➛Request➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"short_description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.sys_id","label":"2➛Requested Item Record➛Requested for➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Table","label":"5➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"86d58b17-c04b-480b-9f1a-e487049abbee.Records","label":"5➛User Records","reference":"sys_user","reference_display":"User","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.requested_for.first_name","label":"2➛Requested Item Record➛Requested for➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving","label":"3➛Person_Leaving","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"subflow.flowdata.ritm","label":"Input➛flowData➛ritm","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"a94ea3f6-b1a0-4dda-a1fe-64b74ad7321e","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Table","label":"2➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record","label":"2➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.record","label":"4➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8463d46-1552-4b69-9320-3a662b119fae.table_name","label":"4➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"33858f06-df77-4714-96b6-377437075d84.context","label":"6➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.name","label":"3➛Person_Leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"959d0aeb-89b7-49dc-ae6f-cc435125216a.Person_Leaving.email","label":"3➛Person_Leaving➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.sys_id","label":"2➛Requested Item Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name","label":"2➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number","label":"2➛Requested Item Record➛Request➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"number"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.description","label":"2➛Requested Item Record➛Request➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"sc_request","column_name":"description"},{"name":"4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state","label":"2➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state"},{"name":"subflow.flowdata.status","label":"Input➛flowData➛status","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiUniqueId":"4728a3bd-d3f7-4851-906d-78b7c2f09fbd","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master>true</master>
         <name>Azure - OneDrive Delegation Return Data</name>
         <natlang/>
@@ -834,7 +879,7 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b1608fd41b3334108c5143f3cc4bcbd3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -842,7 +887,7 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:14</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=b1608fd41b3334108c5143f3cc4bcbd3"/>
@@ -951,16 +996,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">b1608fd41b3334108c5143f3cc4bcbd3</flow>
-        <order>2</order>
-        <parent_ui_id/>
+        <order>3</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:43:05</sys_created_on>
         <sys_id>83296f641bb7b41062e50ed2cd4bcb0f</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:13</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <ui_id>959d0aeb-89b7-49dc-ae6f-cc435125216a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83296f641bb7b41062e50ed2cd4bcb0f"/>
@@ -1038,16 +1083,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">b1608fd41b3334108c5143f3cc4bcbd3</flow>
-        <order>1</order>
-        <parent_ui_id/>
+        <order>2</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-09 18:06:29</sys_created_on>
         <sys_id>b960cfd41b3334108c5143f3cc4bcb19</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:13</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <ui_id>4a06ebd6-c1a3-4d80-9eae-4e65901427f0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b960cfd41b3334108c5143f3cc4bcb19"/>
@@ -1099,16 +1144,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">b1608fd41b3334108c5143f3cc4bcbd3</flow>
-        <order>4</order>
-        <parent_ui_id/>
+        <order>5</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:43:05</sys_created_on>
         <sys_id>c3296f641bb7b41062e50ed2cd4bcb21</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:13</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <ui_id>86d58b17-c04b-480b-9f1a-e487049abbee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c3296f641bb7b41062e50ed2cd4bcb21"/>
@@ -1160,16 +1205,16 @@ This will return information to the user about their OneDrive Delegation.</descr
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Azure - OneDrive Delegation Return Data">b1608fd41b3334108c5143f3cc4bcbd3</flow>
-        <order>3</order>
-        <parent_ui_id/>
+        <order>4</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:43:05</sys_created_on>
         <sys_id>c7296f641bb7b41062e50ed2cd4bcb17</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:13</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <ui_id>c8463d46-1552-4b69-9320-3a662b119fae</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c7296f641bb7b41062e50ed2cd4bcb17"/>
@@ -1245,18 +1290,18 @@ This will return information to the user about their OneDrive Delegation.</descr
         <flow display_value="Azure - OneDrive Delegation Return Data">b1608fd41b3334108c5143f3cc4bcbd3</flow>
         <inputs/>
         <inputs/>
-        <order>5</order>
-        <parent_ui_id/>
+        <order>6</order>
+        <parent_ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</parent_ui_id>
         <subflow display_value="Send Modular Notification">e420ef711b13fc5062e50ed2cd4bcb8a</subflow>
         <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:43:05</sys_created_on>
         <sys_id>c7296f641bb7b41062e50ed2cd4bcb23</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:14</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <ui_id>33858f06-df77-4714-96b6-377437075d84</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c7296f641bb7b41062e50ed2cd4bcb23"/>
@@ -1421,11 +1466,11 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-10 15:43:05</sys_created_on>
         <sys_id>83296f641bb7b41062e50ed2cd4bcb38</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-12-22 15:36:13</sys_updated_on>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
         <table>var__m_sys_hub_flow_input_e420ef711b13fc5062e50ed2cd4bcb8a</table>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c":{"$COCollectionField":[{"variable":{"variableName":"String","variableName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"variableName\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"variableValue":"String","variableValue.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name}}\\\",\\\"[1].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number}}\\\",\\\"[2].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description}}\\\",\\\"[3].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state}}\\\"}\",\"default_value\":\"\",\"label\":\"variableValue\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"}},"complexObject":{"name$":"FD2c20ef713b13fc5032f6ccecbe00e18c","$COCollectionField":[{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Submitted by"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Number"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Description"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Status"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"serializationFormat":"JSON"}</value>
+        <value>{"version":"1.0","complexObject":{"name$":"FD2c20ef713b13fc5032f6ccecbe00e18c","$COCollectionField":[{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Submitted by"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Number"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Description"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}},{"variableName":{"$cv":{"$c":"java.lang.String","$v":"Status"}},"variableValue":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c":{"$COCollectionField":[{"variable":{"variableName":"String","variableName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"variableName\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"variableValue":"String","variableValue.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.opened_by.name}}\\\",\\\"[1].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.number}}\\\",\\\"[2].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.request.short_description}}\\\",\\\"[3].variableValue\\\":\\\"{{4a06ebd6-c1a3-4d80-9eae-4e65901427f0.Record.state}}\\\"}\",\"default_value\":\"\",\"label\":\"variableValue\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD2c20ef713b13fc5032f6ccecbe00e18c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"varList\",\"mandatory\":\"false\",\"child_name\":\"variable\",\"uiUniqueId\":\"93a9eb96-99c2-4a7f-ad16-f42bb6aadc22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD2c20ef713b13fc5032f6ccecbe00e18c\",\"child_label\":\"variable\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cafd5b44-2501-4b0f-a955-c2b259035e3d\"}"}}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>wait_for_completion</field>
@@ -1549,6 +1594,51 @@ This will return information to the user about their OneDrive Delegation.</descr
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2021-11-10 15:43:05</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b1608fd41b3334108c5143f3cc4bcbd3^sys_idNOT INfbe479331ba885d08c5143f3cc4bcb78"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32e4f5331ba885d08c5143f3cc4bcbee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Azure - OneDrive Delegation Return Data">b1608fd41b3334108c5143f3cc4bcbd3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-12-27 16:22:34</sys_created_on>
+        <sys_id>fbe479331ba885d08c5143f3cc4bcb78</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Termination Process">096401ab1b9bf41062e50ed2cd4bcbd9</sys_scope>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-12-27 16:22:35</sys_updated_on>
+        <ui_id>c98d0f5c-8d86-4d15-9f8f-af493f61d58b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fbe479331ba885d08c5143f3cc4bcb78"/>
+    <sys_element_mapping action="delete_multiple" query="id=fbe479331ba885d08c5143f3cc4bcb78"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fbe479331ba885d08c5143f3cc4bcb78</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-12-27 16:22:34</sys_created_on>
+        <sys_id>33e479331ba885d08c5143f3cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-12-27 16:22:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.flowdata.status}}=success</value>
+    </sys_element_mapping>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b1608fd41b3334108c5143f3cc4bcbd3^sys_idNOT INd7296f641bb7b41062e50ed2cd4bcba3"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>b1608fd41b3334108c5143f3cc4bcbd3</attached_to>
